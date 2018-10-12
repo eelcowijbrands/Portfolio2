@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*hieronder begint de grid. Tutorial: https://youtu.be/HgwCeNVPlo0 */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-template-areas:
+    "werkervaring werkervaring werkervaring werkervaring"
+    "webshop webshop webshop webshop";
+}
+
+.werkervaring {
+    grid-area: werkervaring;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.webshop {
+    grid-area: webshop;
+    font-size: 100%;
+}
+
+.grid div:nth-child(even) {
+    background-color: red;
+}
+
+.grid div:nth-child(odd) {
+    background-color: blue;
+}
