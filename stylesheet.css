@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
 }
 
 html {
@@ -8,7 +8,7 @@ html {
   }
 
 body {
-    background-image: url("file:///C:/wamp64/www/Portfolio2/images/hello.jpg");
+    background-image: url("images/hello.jpg");
     background-size: 100%;
     background-position: top center;
     background-attachment: fixed;
